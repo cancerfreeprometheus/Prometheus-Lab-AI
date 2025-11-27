@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prometheus Lab AI</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+    }
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: #e8f7f1;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      color: #0c6b4f;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 0;
+      color: #0c6b4f;
+      text-align: center;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .feature-card {
+      padding: 20px;
+      border: 1px solid #d3eadf;
+      border-radius: 12px;
+      background: #f8fffc;
+      font-size: 18px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .video-container video {
+      width: 100%;
+      max-width: 720px;
+      height: auto;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta-button {
+      padding: 15px 30px;
+      background: #0c6b4f;
+      color: white;
+      border-radius: 8px;
+      font-size: 18px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .cta-button:hover {
+      background: #0a5b42;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI-Powered Lab, Captured in Action.</h1>
+    <p>Automated Lab AI Documentation System</p>
+  </header>
+
+  <section>
+    <h2>Prometheus Lab AI Features</h2>
+    <div class="features">
+      <div class="feature-card">🧪 SOP Generation</div>
+      <div class="feature-card">📑 Audit-ready records</div>
+      <div class="feature-card">🔗 Automated, traceable records</div>
+      <div class="feature-card">🎓 Simplified employee training</div>
+      <div class="feature-card">📹 Document all lab activity</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Product Introduction Video</h2>
+    <div class="video-container">
+      <video controls>
+        <source src="7.BD-TTA-PrometheusVideo-20250829-3-010.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Sign Up for the Pilot Program</h2>
+    <a class="cta-button" href="https://docs.google.com/forms/d/1hKB22i_XxzEzAxDjqj6DUkcLYhbJF6_K-e_OBsS9yr8/edit" target="_blank">Apply Now</a>
+  </section>
+</body>
+</html>
